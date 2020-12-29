@@ -1,0 +1,31 @@
+{
+  "name": "@blastz/eslint-config-nico",
+  "version": "0.1.1",
+  "description": "Nico's eslint config, based on airbnb code styles",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "nico",
+    "eslintconfig"
+  ],
+  "scripts": {
+    "test": "eslint .",
+    "push": "npm publish --access public --registry=https://registry.npmjs.org"
+  },
+  "author": "blastz",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 7",
+    "@typescript-eslint/eslint-plugin": ">=3.8",
+    "@typescript-eslint/parser": ">=3.8"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "typescript": "^3.9.7"
+  }
+}
